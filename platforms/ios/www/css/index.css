@@ -1,0 +1,700 @@
+/**
+ * created by yxzhang on 07/28/16.
+ */
+body {
+  font-family: Source Sans Pro;
+  margin: 0;
+  padding: 0; }
+
+/**
+ * created by yxzhang on 07/28/16
+ * Description: put all color variables here, put them in right block
+ */
+/**
+ * created by yxzhang on 08/08/16
+ * Description: put all text classes here, when you create new class, check if there are other classes which contains most of your requirements,
+ *    if so, don't create a class here, put your class in your component styling file and extend + overwrite the class defined here
+ *    please put class definition in the right block
+ */
+@font-face {
+  font-family: 'Source Sans Pro Regular';
+  src: url("../res/en-us/fonts/source-sans-pro/SourceSansPro-Regular.otf"); }
+@font-face {
+  font-family: 'Source Sans Pro Semibold';
+  src: url("../res/en-us/fonts/source-sans-pro/SourceSansPro-Semibold.otf"); }
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url("../res/en-us/fonts/source-sans-pro/SourceSansPro-Regular.otf"); }
+.Headline-1, .credential-input-container h3 {
+  font-family: Source Sans Pro;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #282828; }
+
+.Subheadline {
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-weight: 600;
+  color: #282828; }
+
+.Section-Header {
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.97;
+  color: #282828; }
+
+.APPLICATION-TITLE {
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 1.8px;
+  text-align: center;
+  color: #f2f2f2; }
+
+.Modal-Window-Title {
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  line-height: 1.83;
+  color: #f2f2f2; }
+
+.Disabled-Button-Label {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.75;
+  color: #b8c7d9; }
+
+.Tree-Nav-L1 {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.94;
+  color: #282828; }
+
+.Tab-Link-Active-or-Hover {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #282828; }
+
+.Tab-Link-Disabled {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #bfbfbf; }
+
+.Tab-Link {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #808080; }
+
+.Tree-Nav-L2 {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  line-height: 1.94;
+  color: #282828; }
+
+.Tree-Nav-L3, .login-container .app-name {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.94;
+  color: #282828; }
+
+.Secondary-Button-Label, .secondary-button {
+  font-family: Source Sans Pro;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.8;
+  color: #282828; }
+
+.Primary-Button-Label, .primary-button, .primary-button-outline, .danger-button {
+  font-family: Source Sans Pro;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.8;
+  color: #ffffff; }
+
+.Grid-Header, .grid-header .header-column a.k-link, .k-grid .k-grid-header .header-column a.k-link, .k-grid .k-grid-header tr > th a.k-link {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 2.07;
+  color: #444a59; }
+
+.Form-Title, .dialog .dialog-header .dialog-title, .k-window .dialog-header .dialog-title, .dialog .k-window-titlebar .dialog-title, .k-window .k-window-titlebar .dialog-title, .k-window-titlebar .dialog .dialog-header .k-window-title, .k-window-titlebar .k-window .dialog-header .k-window-title, .dialog .k-window-titlebar .k-window-title, .k-window .k-window-titlebar .k-window-title, .dialog .dialog-header.dialog-title, .k-window .dialog-header.dialog-title, .dialog .dialog-title.k-window-titlebar, .k-window .dialog-title.k-window-titlebar, .k-window-titlebar .dialog .k-window-titlebar.k-window-title, .k-window-titlebar .k-window .k-window-titlebar.k-window-title, .k-window-titlebar .dialog .dialog-header.k-window-title, .k-window-titlebar .k-window .dialog-header.k-window-title {
+  width: 76px;
+  height: 15px;
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-weight: 400;
+  color: #f2f2f2; }
+
+.Form-Element-Text {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  line-height: 2.25;
+  color: #282828; }
+
+.Page-Error-Message {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  color: #f53249; }
+
+.Hint-Text {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  color: #bfbfbf; }
+
+.Context-Menu-Text, .menu-item, .k-menu .k-state-default {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.86;
+  color: #282828; }
+
+.Context-Menu-Selected {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  line-height: 1.86;
+  color: #ffffff; }
+
+.Text-Style-10 {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  line-height: 1.86;
+  color: #575f73; }
+
+.Base-Text-Link {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  line-height: 1.86;
+  color: #1e71d5; }
+
+.Text-Style-8 {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  line-height: 2.14;
+  color: #575f73; }
+
+.Breadcrumb {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  line-height: 2.14;
+  color: #ffffff; }
+
+.Text-Style-15 {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  color: #282828; }
+
+.Text-Style-2 {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  line-height: 1.86;
+  color: #444a59; }
+
+.Grid-Financial-Data {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: right;
+  color: #444a59; }
+
+.Data-Summary-Value {
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 600;
+  color: #444a59; }
+
+.Form-Element-Error-Message, .credential-input-container .error-msg-container {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 400;
+  color: #f53249; }
+
+.Tool-Tip {
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  line-height: 1.75;
+  letter-spacing: 0.3px;
+  color: #323133; }
+
+.Data-Summary-Label {
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  color: #808080; }
+
+.Button-Text, .credential-input-container .login-btn {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  color: #ffffff; }
+
+.Minor-Link {
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.9px;
+  color: #f2f2f2; }
+
+.Placeholder-Text, .credential-input-container .user-input-box::-webkit-input-placeholder, .credential-input-container .pwd-input-box::-webkit-input-placeholder {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  color: #808080; }
+
+.Active-Link, .tab-items .tab-item-default-state .tab-item-default-title, .k-tabstrip-items .tab-item-default-state .tab-item-default-title, .k-tabstrip-items .k-state-default .tab-item-default-title, .k-tabstrip-items .k-state-default .k-link, .tab-items .tab-item-default-state.tab-item-default-title, .k-tabstrip-items .tab-item-default-state.tab-item-default-title, .k-tabstrip-items .tab-item-default-title.k-state-default {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: #282828; }
+
+.Default-Link {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: #808080; }
+
+/**
+ * created by yxzhang on 07/28/16
+ * Description: put all icons here, put them in right block
+ */
+.close-X, .k-window-titlebar .k-window-actions .k-link {
+  width: 16px;
+  height: 16px;
+  color: #f2f2f2;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased; }
+  .close-X:before, .k-window-titlebar .k-window-actions .k-link:before {
+    content: "\f00d"; }
+
+.lock-icon {
+  color: #ffa500; }
+
+/**
+ * created by yxzhang on 08/8/16
+ * Description: put all layout classes here, put them in right block
+ */
+.fill-width, .full-fill-container {
+  width: 100%; }
+
+.fill-height, .full-fill-container {
+  height: 100%; }
+
+.fill-viewport-width, .full-fill-viewport-container {
+  width: 100vw; }
+
+.fill-viewport-height, .full-fill-viewport-container {
+  height: 100vh; }
+
+.full-fill-container {
+  max-height: 100%;
+  max-width: 100%; }
+
+.full-fill-viewport-container {
+  max-height: 100vh;
+  max-width: 100vw; }
+
+.clear-fill {
+  background: none;
+  border: none; }
+
+.pull-left, .pull-left-button {
+  float: left; }
+
+.pull-right, .pull-right-button {
+  float: right; }
+
+.inline-non-padding {
+  display: inline-block;
+  padding: 0; }
+
+.non-white-space-or-scroll-container, .dialog .dialog-content, .k-window .dialog-content, .k-window .k-window-content {
+  padding: 0;
+  margin: 0;
+  overflow: hidden; }
+
+.column-flex {
+  display: flex;
+  flex-direction: column; }
+
+.row-flex, .flex-col-10, .flex-col-12 {
+  display: flex;
+  flex-direction: row; }
+
+.centered-flex, .credential-input-container .error-msg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.flex-col-10 {
+  flex-wrap: wrap; }
+  .flex-col-10 .col-1 {
+    width: 10%; }
+  .flex-col-10 .col-2 {
+    width: 20%; }
+  .flex-col-10 .col-3 {
+    width: 30%; }
+  .flex-col-10 .col-4 {
+    width: 40%; }
+  .flex-col-10 .col-5 {
+    width: 50%; }
+  .flex-col-10 .col-6 {
+    width: 60%; }
+  .flex-col-10 .col-7 {
+    width: 70%; }
+  .flex-col-10 .col-8 {
+    width: 80%; }
+  .flex-col-10 .col-9 {
+    width: 90%; }
+
+.flex-col-12 {
+  flex-wrap: wrap; }
+  .flex-col-12 .col-1 {
+    width: 8.33%; }
+  .flex-col-12 .col-2 {
+    width: 16.66%; }
+  .flex-col-12 .col-3 {
+    width: 25%; }
+  .flex-col-12 .col-4 {
+    width: 33.33%; }
+  .flex-col-12 .col-5 {
+    width: 41.66%; }
+  .flex-col-12 .col-6 {
+    width: 50%; }
+  .flex-col-12 .col-7 {
+    width: 58.33%; }
+  .flex-col-12 .col-8 {
+    width: 66.66%; }
+  .flex-col-12 .col-9 {
+    width: 75%; }
+  .flex-col-12 .col-10 {
+    width: 83.33%; }
+  .flex-col-12 .col-11 {
+    width: 91.66%; }
+
+/**
+ * created by yxzhang on 08/08/16
+ * Description: define widget styling, put them in the right block
+ */
+.general-button, .primary-button, .primary-button-outline, .secondary-button, .danger-button {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  border-radius: 2.5px;
+  padding: 3px 20px;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.8;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent; }
+  .general-button:disabled, .primary-button:disabled, .primary-button-outline:disabled, .secondary-button:disabled, .danger-button:disabled {
+    cursor: not-allowed; }
+
+.primary-button, .primary-button-outline {
+  background-color: #307fe2; }
+  .primary-button:disabled, .primary-button-outline:disabled, .primary-button:disabled:hover, .primary-button-outline:disabled:hover {
+    color: #b8c7d9;
+    background-color: #d5e5f9; }
+  .primary-button:hover, .primary-button-outline:hover {
+    color: #ffffff;
+    background-color: #1c4c86; }
+  .primary-button:active, .primary-button-outline:active {
+    color: #1c4c86;
+    background-color: #90c1fd; }
+
+.primary-button-outline {
+  color: #307fe2;
+  background-color: #ffffff;
+  border: 1px solid #307fe2; }
+
+.secondary-button {
+  background-color: #bfbfbf; }
+  .secondary-button:disabled, .secondary-button:disabled:hover {
+    color: #bfbfbf;
+    background-color: #f2f2f2; }
+  .secondary-button:hover {
+    color: #282828;
+    background-color: #f2f2f2; }
+
+.danger-button {
+  background-color: #ee3147; }
+  .danger-button:disabled, .danger-button:disabled:hover {
+    color: #bfbfbf;
+    background-color: #d68484; }
+
+.left-side-button {
+  margin-right: 20px; }
+  .left-side-button:last-of-type {
+    margin-right: 0; }
+
+.right-side-button {
+  margin-left: 20px; }
+  .right-side-button:first-of-type {
+    margin-left: 0; }
+
+.pull-left-button {
+  display: inline-block !important; }
+
+.pull-right-button {
+  display: inline-block !important;
+  margin-left: 20px; }
+
+.dialog, .k-window {
+  padding: 0;
+  border: 0 !important; }
+  .dialog .dialog-header, .k-window .dialog-header, .dialog .k-window-titlebar, .k-window .k-window-titlebar {
+    background-color: #2a3d53 !important;
+    text-align: center !important;
+    padding: 11px 0 !important; }
+    .dialog .dialog-header .dialog-title, .k-window .dialog-header .dialog-title, .dialog .k-window-titlebar .dialog-title, .k-window .k-window-titlebar .dialog-title, .k-window-titlebar .dialog .dialog-header .k-window-title, .k-window-titlebar .k-window .dialog-header .k-window-title, .dialog .k-window-titlebar .k-window-title, .k-window .k-window-titlebar .k-window-title, .dialog .dialog-header.dialog-title, .k-window .dialog-header.dialog-title, .dialog .dialog-title.k-window-titlebar, .k-window .dialog-title.k-window-titlebar, .dialog .k-window-titlebar .k-window-titlebar.k-window-title, .k-window-titlebar .dialog .k-window-titlebar.k-window-title, .k-window .k-window-titlebar .k-window-titlebar.k-window-title, .k-window-titlebar .k-window .k-window-titlebar.k-window-title, .dialog .k-window-titlebar .dialog-header.k-window-title, .k-window-titlebar .dialog .dialog-header.k-window-title, .k-window .k-window-titlebar .dialog-header.k-window-title, .k-window-titlebar .k-window .dialog-header.k-window-title {
+      color: #ffffff;
+      display: inline-block;
+      height: auto;
+      width: auto; }
+    .dialog .dialog-header .dialog-actions, .k-window .dialog-header .dialog-actions, .dialog .k-window-titlebar .dialog-actions, .k-window .k-window-titlebar .dialog-actions, .k-window-titlebar .dialog .dialog-header .k-window-actions, .k-window-titlebar .k-window .dialog-header .k-window-actions, .dialog .k-window-titlebar .k-window-actions, .k-window .k-window-titlebar .k-window-actions, .dialog .dialog-header.dialog-actions, .k-window .dialog-header.dialog-actions, .dialog .dialog-actions.k-window-titlebar, .k-window .dialog-actions.k-window-titlebar, .dialog .k-window-titlebar .k-window-titlebar.k-window-actions, .k-window-titlebar .dialog .k-window-titlebar.k-window-actions, .k-window .k-window-titlebar .k-window-titlebar.k-window-actions, .k-window-titlebar .k-window .k-window-titlebar.k-window-actions, .dialog .k-window-titlebar .dialog-header.k-window-actions, .k-window-titlebar .dialog .dialog-header.k-window-actions, .k-window .k-window-titlebar .dialog-header.k-window-actions, .k-window-titlebar .k-window .dialog-header.k-window-actions {
+      display: inline-block;
+      padding-top: 0 !important;
+      height: auto;
+      width: auto;
+      top: auto; }
+  .dialog .dialog-footer, .k-window .dialog-footer {
+    position: relative;
+    padding: 11px;
+    border-radius: 0 0 3px 3px;
+    background-color: #2a3d53; }
+
+.tab-items, .k-tabstrip-items {
+  display: flex;
+  border: none; }
+  .tab-items .tab-item-default-state, .k-tabstrip-items .tab-item-default-state, .k-tabstrip-items .k-state-default {
+    margin-top: 28px;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #f2f2f2; }
+    .tab-items .tab-item-default-state:hover, .k-tabstrip-items .tab-item-default-state:hover, .k-tabstrip-items .k-state-default:hover {
+      color: #282828;
+      background-color: #ffffff; }
+    .tab-items .tab-item-default-state .tab-item-default-title, .k-tabstrip-items .tab-item-default-state .tab-item-default-title, .k-tabstrip-items .k-state-default .tab-item-default-title, .k-tabstrip-items .k-state-default .k-link, .tab-items .tab-item-default-state.tab-item-default-title, .k-tabstrip-items .tab-item-default-state.tab-item-default-title, .k-tabstrip-items .tab-item-default-title.k-state-default, .k-tabstrip-items .k-state-default .k-state-default.k-link, .k-tabstrip-items .k-state-default .tab-item-default-state.k-link {
+      color: #808080;
+      padding: 0;
+      padding-bottom: 14px; }
+      .tab-items .tab-item-default-state .tab-item-default-title:hover, .k-tabstrip-items .tab-item-default-state .tab-item-default-title:hover, .k-tabstrip-items .k-state-default .tab-item-default-title:hover, .k-tabstrip-items .k-state-default .k-link:hover, .tab-items .tab-item-default-state.tab-item-default-title:hover, .k-tabstrip-items .tab-item-default-state.tab-item-default-title:hover, .k-tabstrip-items .tab-item-default-title.k-state-default:hover, .k-tabstrip-items .k-state-default .k-state-default.k-link:hover, .k-tabstrip-items .k-state-default .tab-item-default-state.k-link:hover {
+        color: #282828;
+        background-color: #ffffff; }
+  .tab-items .tab-item-active-state, .k-tabstrip-items .tab-item-active-state, .k-tabstrip-items .k-state-active {
+    border-bottom: 4px solid #00bee1; }
+    .tab-items .tab-item-active-state .tab-item-active-title, .k-tabstrip-items .tab-item-active-state .tab-item-active-title, .k-tabstrip-items .k-state-active .tab-item-active-title, .k-tabstrip-items .k-state-active .k-link, .tab-items .tab-item-active-state.tab-item-active-title, .k-tabstrip-items .tab-item-active-state.tab-item-active-title, .k-tabstrip-items .tab-item-active-title.k-state-active, .k-tabstrip-items .k-state-active .k-state-active.k-link, .k-tabstrip-items .k-state-active .tab-item-active-state.k-link {
+      color: #282828; }
+
+.menu-sprite, .k-menu .k-sprite {
+  font-size: 13px;
+  overflow: visible;
+  padding: 0;
+  padding-right: 12px;
+  margin: 0;
+  height: 100%;
+  vertical-align: middle;
+  width: 20px; }
+
+.filter-list-empty-sprite {
+  width: 28px; }
+
+.menu-item, .k-menu .k-state-default {
+  box-sizing: border-box;
+  color: #282828;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  min-height: 24px;
+  white-space: nowrap; }
+  .menu-item:hover, .k-menu .k-state-default:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #06bee1; }
+
+.menu-divider-container {
+  padding: 0;
+  margin: 0; }
+  .menu-divider-container .menu-divider {
+    padding: 0;
+    margin: 0; }
+
+.grid-header, .k-grid .k-grid-header {
+  background-color: #eeeeee;
+  border-bottom: 2px solid #979797; }
+  .grid-header .header-column, .k-grid .k-grid-header .header-column, .k-grid .k-grid-header .grid-header tr > th, .k-grid .k-grid-header tr > th {
+    background-color: #eeeeee; }
+  .grid-header .non-filterable-column, .k-grid .k-grid-header .non-filterable-column {
+    cursor: not-allowed;
+    box-shadow: none !important;
+    border: inherit !important; }
+
+.grid-content .default-state, .k-grid .k-grid-content .default-state, .k-grid .k-grid-content tr, .k-grid .k-grid-content tr.k-state-default, .k-grid .k-grid-content .k-grid-content > table > tbody > tr > td {
+  cursor: pointer;
+  border: none !important; }
+.grid-content .selected-state, .k-grid .k-grid-content .selected-state, .k-grid .k-grid-content tr.k-state-selected {
+  color: #ffffff;
+  background-color: #06bee1 !important;
+  box-shadow: none !important; }
+  .grid-content .selected-state:hover, .k-grid .k-grid-content .selected-state:hover, .k-grid .k-grid-content tr.k-state-selected:hover {
+    box-shadow: none !important;
+    color: #ffffff;
+    background-color: #06bee1 !important; }
+  .grid-content .selected-state .lock-icon, .k-grid .k-grid-content .selected-state .lock-icon, .k-grid .k-grid-content tr.k-state-selected .lock-icon {
+    color: #ffa500; }
+.grid-content .focused-state, .k-grid .k-grid-content .focused-state, .k-grid .k-grid-content tr.k-state-selected td, .k-grid .k-grid-content tr.k-state-selected td.k-state-focused, .grid-content .active-state, .k-grid .k-grid-content .active-state, .k-grid .k-grid-content tr.k-state-selected td, .k-grid .k-grid-content tr.k-state-selected td.k-state-active {
+  box-shadow: none !important;
+  color: #ffffff;
+  background-color: #06bee1 !important; }
+  .grid-content .focused-state:hover, .k-grid .k-grid-content .focused-state:hover, .k-grid .k-grid-content tr.k-state-selected td:hover, .grid-content .active-state:hover, .k-grid .k-grid-content .active-state:hover, .k-grid .k-grid-content tr.k-state-selected td:hover {
+    box-shadow: none !important;
+    color: #ffffff;
+    background-color: #06bee1 !important; }
+.grid-content .alt-state, .k-grid .k-grid-content .alt-state, .k-grid .k-grid-content tr.k-alt {
+  background-color: #fafafa; }
+.grid-content .hover-state, .k-grid .k-grid-content .hover-state, .k-grid .k-grid-content tr:hover, .k-grid .k-grid-content tr.k-alt:hover, .k-grid .k-grid-content tr:not(.k-state-selected):hover, .k-grid .k-grid-content tr.k-alt:not(.k-state-selected):hover {
+  background-color: #cdf2f9 !important; }
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px; }
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  border-radius: 2.5px; }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2.5px;
+  background-color: rgba(1, 1, 1, 0.5); }
+
+/**
+ * created by yxzhang on 08/09/16
+ * Description: overwrite vendor styling, put them in the right block
+ */
+.k-window-titlebar .k-window-actions .k-link:hover {
+  background-color: inherit; }
+.k-window-titlebar .k-window-actions .k-link span {
+  display: none; }
+.k-window-titlebar .k-window-actions .k-link.k-state-hover {
+  border: none;
+  box-shadow: none; }
+
+.k-tabstrip-items .k-state-default .k-loading.k-complete {
+  border: none; }
+.k-tabstrip-items .k-state-default.k-last {
+  margin-right: 0; }
+
+.k-grid {
+  border-radius: 0; }
+  .k-grid .k-grid-content tr.k-state-selected td.k-state-focused {
+    height: calc(100% - 1px); }
+
+.k-menu {
+  box-shadow: 8px 8px 15px 0 rgba(0, 0, 0, 0.35) !important; }
+  .k-menu .k-state-default .k-link {
+    color: inherit;
+    background: none; }
+
+.k-multiselect .k-button {
+  max-width: calc(100% - 5px);
+  text-align: left;
+  word-wrap: break-word; }
+
+.credential-input-container {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  .credential-input-container .credential-input-form {
+    width: 100%;
+    padding: 10px; }
+  .credential-input-container .error-msg-container {
+    height: 35px; }
+  .credential-input-container .user-input-box, .credential-input-container .pwd-input-box {
+    display: block;
+    height: 35px;
+    width: calc(100% - 30px);
+    margin-bottom: 9px;
+    padding-left: 20.5px;
+    line-height: 1; }
+    .credential-input-container .user-input-box::-webkit-input-placeholder, .credential-input-container .pwd-input-box::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */ }
+  .credential-input-container .remember-username-container {
+    color: #ffffff; }
+  .credential-input-container .error-input {
+    background-color: #FEEAEC;
+    border: 1px solid #f53249; }
+    .credential-input-container .error-input::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #f53249; }
+  .credential-input-container .login-btn {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color: #06bee1;
+    height: 35px;
+    color: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 5.5px; }
+  .credential-input-container h3 {
+    color: #ffffff;
+    line-height: 1.27; }
+
+.company-logo {
+  background-image: url("../../res/icons/SSC-Advent-lockup-White.svg"); }
+
+.login-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #2a3d53;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center; }
+  .login-container .label-panel, .login-container .app-name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 40px; }
+    .login-container .label-panel img, .login-container .app-name img {
+      height: 38px;
+      width: 148px; }
+  .login-container .app-name {
+    line-height: 2.13;
+    color: #cbced4;
+    letter-spacing: 1.6px;
+    height: auto;
+    margin-top: 3px; }
+    .login-container .app-name p {
+      letter-spacing: 6px; }
+  .login-container .bottom-container {
+    width: 100%; }
+
+/*# sourceMappingURL=index.css.map */

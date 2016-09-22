@@ -1,0 +1,24 @@
+{
+  "name": "phonegapprototype",
+  "version": "1.0.0",
+  "description": "Prototype a mobile app with PhoneGap for practice and research",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxuzhang/PhoneGapPrototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yxuzhang/PhoneGapPrototype/issues"
+  },
+  "homepage": "https://github.com/yxuzhang/PhoneGapPrototype#readme"
+}

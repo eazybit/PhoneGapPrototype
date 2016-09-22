@@ -1,0 +1,43 @@
+.company-logo {
+	background-image: url('../../res/icons/SSC-Advent-lockup-White.svg');
+}
+
+.login-container{
+	height: 100vh;
+	width: 100%;
+	background-color: $topChrome;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: center;
+
+	.label-panel {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		height: 40px;
+		img {
+			height: 38px;
+			width: 148px;
+		}
+	}
+
+	.app-name {
+		@extend .label-panel;
+		@extend .Tree-Nav-L3;
+		line-height: 2.13;
+		color: $appName;
+		letter-spacing: 1.6px;
+		height: auto;
+		margin-top: 3px;
+
+		p {
+			letter-spacing: 6px;
+		}
+	}
+
+	.bottom-container {
+		width: 100%;
+	}
+}

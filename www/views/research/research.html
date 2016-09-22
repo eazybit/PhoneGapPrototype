@@ -1,0 +1,28 @@
+﻿<div class="container-fluid">
+    <h3>Contacts</h3>
+    <table style="width:100%; max-height: 400px; overflow-y: auto;">
+        <tr>
+            <th>Name</th>
+            <th>Phone</th>
+        </tr>
+        <tr ng-repeat="contact in phoneContacts">
+            <td>{{contact.name}}</td>
+            <td>{{contact.phone}}</td>
+        </tr>
+    </table>
+    <form style="padding-top: 30px;">
+        <div>
+            <span>First Name:</span>
+            <input ng-model="firstName">
+        </div>
+        <div>
+            <span>Last Name:</span>
+            <input ng-model="lastName">
+        </div>
+        <div>
+            <span>Phone:</span>
+            <input ng-model="phone">
+        </div>
+        <button class="primary-button" ng-click="addClick()">Add</button>
+    </form>
+</div>

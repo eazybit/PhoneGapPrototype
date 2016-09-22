@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' * gap://ready; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Tamale RMS</title>
+</head>
+
+<body ng-app="app" ng-controller="appCtrl">
+    <!--main view-->
+    <div ui-view></div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="cordova_plugins.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/angular.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/ui-bootstrap.js"></script>
+    <script type="text/javascript" src="js/angular-ui-router.js"></script>
+    <script type="text/javascript" src="widgets/submit-button/submit-button.js"></script>
+    <script type="text/javascript" src="widgets/appWidgets.js"></script>
+    <script type="text/javascript" src="components/credential-input/credential-input.js"></script>
+    <script type="text/javascript" src="components/appComponents.js"></script>
+    <script type="text/javascript" src="views/login/login.js"></script>
+    <script type="text/javascript" src="views/master/master_page.js"></script>
+    <script type="text/javascript" src="views/research/research.js"></script>
+    <script type="text/javascript" src="views/appViews.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>
